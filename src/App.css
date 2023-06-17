@@ -1,0 +1,46 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(173, 173, 173);
+}
+
+#container {
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(173, 136, 3);
+  border-radius: 10px;
+  padding: 0 15px 15px;
+  background: rgb(173, 136, 3);
+}
+
+.App-h1 {
+  font-size: 24px;
+  color: rgb(31, 27, 27);
+  text-align: center;
+  margin: 20px;
+}
+
+
+.num {
+  color: navy;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  background: gainsboro;
+  padding: 10px;
+}
